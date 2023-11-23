@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+        Gatto gatto = new Gatto();
         Animale animale = new Animale();
-        Animale gatto = new Gatto();
-        animale.faiIlVerso(gatto);
-        animale.faiIlVerso(animale);
+        gatto.faiIlVerso();
+        animale.faiIlVerso();
     }
 }
